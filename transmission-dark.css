@@ -27,21 +27,25 @@ ul.torrent_list li.torrent {
     color:#888;
     background-color:#1b1b1b;
 }
-ul.torrent_list li.torrent:hover,ul.torrent_list li.torrent.even:hover {background-color:#222}
-
-ul.torrent_list li.torrent.selected:hover {
-    background-color:#183673;
-}
 
 ul.torrent_list li.torrent div.torrent_name {
     color: #999;
 }
+
+ul.torrent_list li.torrent:hover,ul.torrent_list li.torrent.even:hover {background-color:#222}
+
+
 ul.torrent_list li.torrent.even {
     background-color: #272727;
 }
 ul.torrent_list li.torrent.selected {
     background-color: #0f295f;
 }
+
+ul.torrent_list li.torrent.selected:hover, ul.torrent_list li.torrent.even.selected:hover {
+    background-color:#183673;
+}
+
 div#torrent_container{
     background-color:black;
 }
